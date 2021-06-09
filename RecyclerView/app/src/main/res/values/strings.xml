@@ -1,0 +1,312 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+
+    <string-array name="players_name">
+        <item>1.Ter Stegen</item>
+        <item>2.Sergino Dest</item>
+        <item>3.Gerard Pique</item>
+        <item>4.Ronald Araujo</item>
+        <item>5.Sergio Busquets</item>
+        <item>6.Carles Alena</item>
+        <item>7.Antoine Griezmann</item>
+        <item>8.Miralem Pjanic</item>
+        <item>9.Martin Braithwaite</item>
+        <item>10.Lionel Messi</item>
+        <item>11.Ousmane Dembele</item>
+        <item>12.Riqui Puig</item>
+        <item>13.Neto</item>
+        <item>14.Philippe Coutinho</item>
+        <item>15.Clement Lenglet</item>
+        <item>16.Pedri</item>
+        <item>17.Francisco Trincao</item>
+        <item>18.Jordi Alba</item>
+        <item>19.Matheus Fernandes</item>
+        <item>20.Sergio Roberto</item>
+        <item>21.F.De Jong</item>
+        <item>22.Ansu Fati</item>
+        <item>23.Samuel Umtiti</item>
+        <item>24.Junior Firpo</item>
+
+
+    </string-array>
+    <string-array name="Player_designation">
+        <item>Goalkeeper</item>
+        <item>Right Back</item>
+        <item>Defender</item>
+        <item>centre-back</item>
+        <item>defensive midfielder</item>
+        <item>central midfielder</item>
+        <item>Forward</item>
+        <item>Midfielder</item>
+        <item>forward</item>
+        <item>Forward</item>
+        <item>Forward</item>
+        <item>central midfielder</item>
+        <item>Goalkeeper</item>
+        <item>Midfielder</item>
+        <item>centre-back</item>
+        <item>attacking midfielder</item>
+        <item>winger</item>
+        <item>left-back</item>
+        <item>central midfielder</item>
+        <item>full-back</item>
+        <item>midfielder</item>
+        <item>left winger</item>
+        <item>centre-back</item>
+        <item>left-back</item>
+    </string-array>
+    <string-array name="stegen">
+        <item>Marc-André ter Stegen</item>
+        <item>Marc-André ter Stegen is a German professional footballer who plays as a
+            goalkeeper for Spanish club Barcelona and the Germany national team. He is
+            considered as one of the best goalkeepers in the world.</item>
+        <item>Born: April 30, 1992 (age 28 years), Mönchengladbach, Germany</item>
+        <item>Height: 1.87 m</item>
+        <item>Nationality: German</item>
+        <item>Spouse: Daniela Jehle (m. 2017)</item>
+        <item>Salary: 4.68 million EUR (2019)</item>
+        <item>Current teams: FC Barcelona (#1 / Goalkeeper), Germany national football team (#22 / Goalkeeper)</item>
+    </string-array>
+    <string-array name="dest">
+        <item>Sergiño Dest</item>
+        <item>Sergiño Gianni Dest is an American professional soccer player who plays as a right-back
+            for FC Barcelona and the United States national team. Born in the Netherlands to a Dutch
+            mother and American father, Dest has represented the United States internationally at senior level since 2019.</item>
+        <item>Born: November 3, 2000 (age 20 years), Almere, Netherlands</item>
+        <item>Height: 1.75 m</item>
+        <item>Nationality: American, Dutch</item>
+        <item>Weight: 62 kg</item>
+        <item>Current teams: FC Barcelona (#2 / Defender), United States men national soccer team (Defender)</item>
+        <item>Dates joined: 2020 (FC Barcelona), 2019 (United States men national soccer team, AFC Ajax)</item>
+
+    </string-array>
+    <string-array name="pique">
+        <item>Gerard Piqué</item>
+        <item>Gerard Piqué Bernabeu is a Spanish professional footballer who plays as a centre-back for Barcelona.</item>
+        <item>Born: February 2, 1987 (age 33 years), Barcelona, Spain</item>
+        <item>Height: 1.94 m</item>
+        <item>Nationality : Spanish</item>
+        <item>Partner: Shakira (2011–)</item>
+        <item>Salary: 5.8 million EUR (2014)</item>
+        <item>Current teams: FC Barcelona (#3 / Defender), Catalonia national football team (Defender)</item>
+
+    </string-array>
+    <string-array name="araujo">
+        <item>Ronald Federico Araújo da Silva</item>
+        <item>Ronald Federico Araújo da Silva is a Uruguayan professional footballer who
+            plays as a centre-back for Spanish club Barcelona and the Uruguay national team.</item>
+        <item>Born: March 7, 1999 (age 21 years), Rivera, Uruguay</item>
+        <item>Height: 1.91 m</item>
+        <item>Nationality: Uruguayan</item>
+        <item>Weight: 91 kg</item>
+        <item>Current teams: FC Barcelona (#4 / Defender), Uruguay national football team (Defender)</item>
+        <item>Dates joined: 2019 (FC Barcelona), 2018 (FC Barcelona B)</item>
+    </string-array>
+    <string-array name="busquets">
+        <item>Sergio Busquets</item>
+        <item>Sergio Busquets Burgos is a Spanish professional footballer who plays
+            as a defensive midfielder for Barcelona and the Spain national team. Busquets is
+            widely regarded as one of the best defensive midfielders of all time due to his
+            composure on the ball, vision, defensive awareness, passing ability, and dribbling.</item>
+        <item>Born: July 16, 1988 (age 32 years), Sabadell, Spain</item>
+        <item>Height: 1.89 m</item>
+        <item>Nationaity : Spanish</item>
+        <item>Partner: Elena Galera Moron (2014–)</item>
+        <item>Current teams: FC Barcelona (#5 / Midfielder)</item>
+        <item>Dates joined: 2009 (Spain national football team)</item>
+    </string-array>
+    <string-array name="alena">
+        <item>Carles Aleñá</item>
+        <item>Carles Aleñá Castillo is a Spanish professional footballer who plays as a central midfielder for Barcelona.</item>
+        <item>Born: January 5, 1998 (age 22 years), Mataró, Spain</item>
+        <item>Nationaity : Spanish</item>
+        <item>Partner: Ingrid Gaixas</item>
+        <item>Parents: Francesc Aleñá</item>
+        <item>Current teams: FC Barcelona (#6 / Midfielder), Spain national under-21 football team (Midfielder)</item>
+        <item>Dates joined: December 28, 2019 (Real Betis), February 2016 (FC Barcelona), 2015 (FC Barcelona B)</item>
+
+    </string-array>
+    <string-array name="griezmann">
+        <item>Antoine Griezmann</item>
+        <item>Antoine Griezmann is a French professional footballer who plays as a forward for Spanish club Barcelona and the France national team. Wikipedia</item>
+        <item>Born: March 21, 1991 (age 29 years), Mâcon, France</item>
+        <item>Height: 1.76 m</item>
+        <item>Nationality: French</item>
+        <item>Spouse: Erika Choperena (m. 2017)</item>
+        <item>Current teams: FC Barcelona (#7 / Forward), France national football team (Forward)</item>
+        <item>Awards: UEFA Euro adidas Golden Boot</item>
+    </string-array>
+    <string-array name="pjanic">
+        <item>Miralem Pjanić</item>
+        <item>Miralem Pjanić is a Bosnian-Herzegovinian professional footballer who plays as a midfielder for Spanish club Barcelona and the Bosnia and Herzegovina national team. Pjanić started his professional career at Metz being there for one season. Wikipedia</item>
+        <item>Born: April 2, 1990 (age 30 years), Tuzla, Bosnia and Herzegovina</item>
+        <item>Height: 1.78 m</item>
+        <item>Nationality: Bosnian, Luxembourgish, Yugoslav</item>
+        <item>Partner: Josepha Pjanić</item>
+        <item>Salary: 6.5 million EUR (2018)</item>
+        <item>Current teams: FC Barcelona (#8 / Midfielder), Bosnia and Herzegovina national football team (Midfielder)</item>
+    </string-array>
+    <string-array name="braithwaite">
+        <item>Martin Braithwaite</item>
+        <item>Martin Christensen Braithwaite is a Danish professional footballer who plays for Spanish club Barcelona and the Denmark national team. Mainly a forward, he can also play in the winger position. Wikipedia</item>
+        <item>Born: June 5, 1991 (age 29 years), Esbjerg, Denmark</item>
+        <item>Nationality: Danish</item>
+        <item>Market value: €7.50m</item>
+        <item>Spouse: Anne-Laure Louis</item>
+        <item>Current teams: FC Barcelona (#9 / Forward), Denmark national football team (Forward)</item>
+        <item>Parents: Keith Braithwaite, Heidi Braithwaite</item>
+    </string-array>
+    <string-array name="messi">
+        <item>Lionel Messi</item>
+        <item>Lionel Andrés Messi is an Argentine professional footballer who plays as a forward and captains both Spanish club Barcelona and the Argentina national team.</item>
+        <item>Born: June 24, 1987 (age 33 years), Rosario, Argentina</item>
+        <item>Height: 1.7 m</item>
+        <item>Nationality : Argentine</item>
+        <item>Spouse: Antonela Roccuzzo (m. 2017)</item>
+        <item>Salary: 26 million GBP (2020)</item>
+        <item>Awards: European Golden Shoe, FIFA World Player of the Year,</item>
+    </string-array>
+    <string-array name="dembele">
+        <item>Ousmane Dembélé</item>
+        <item>Masour Ousmane Dembélé is a French professional footballer who plays as a forward for Spanish club Barcelona and the France national football team. Born in Vernon, Dembélé began his career at Rennes before joining Dortmund in 2016.</item>
+        <item>Born: May 15, 1997 (age 23 years), Vernon, France</item>
+        <item>Nationality: French</item>
+        <item>Height: 1.78 m</item>
+        <item>Weight: 67 kg</item>
+        <item>Current team: FC Barcelona (#11 / Forward)</item>
+        <item>Parents: Fatimata Dembélé</item>
+    </string-array>
+    <string-array name="puig">
+        <item>Riqui Puig</item>
+        <item>Ricard "Riqui" Puig Martí is a Spanish professional footballer who plays for Barcelona as a central midfielder. Wikipedia</item>
+        <item>Born: August 13, 1999 (age 21 years), Matadepera, Spain</item>
+        <item>Height: 1.69 m</item>
+        <item>Nationality: Spanish</item>
+        <item>Weight: 56 kg</item>
+        <item>Current teams: FC Barcelona (#12 / Midfielder), Spain national under-21 football team (Midfielder)</item>
+        <item>Dates joined: 2019 (FC Barcelona), 2013 (FC Barcelona B)</item>
+    </string-array>
+    <string-array name="neto">
+        <item>Norberto Murara Neto</item>
+        <item>Norberto Murara Neto, commonly known as Neto, is a Brazilian professional footballer who plays as a goalkeeper for Spanish club Barcelona. Neto began his career with Brazilian side Athletico Paranaense and later played for Italian side Fiorentina.</item>
+        <item>Born: July 19, 1989 (age 31 years), Araxá, State of Minas Gerais, Brazil</item>
+        <item>Height: 1.9 m</item>
+        <item>Nationality: Brazilian</item>
+        <item>Current team: FC Barcelona (#13 / Goalkeeper)</item>
+        <item>Salary: 550,000 EUR (2012)</item>
+        <item>Market value: €10.00m</item>
+    </string-array>
+    <string-array name="coutinho">
+        <item>Philippe Coutinho</item>
+        <item>Philippe Coutinho Correia is a Brazilian professional footballer who plays as an attacking midfielder or winger for Spanish club Barcelona and the Brazil national team. He is known for his combination of vision, passing, dribbling and ability to conjure curving long-range strikes.</item>
+        <item>Born: June 12, 1992 (age 28 years), Rio de Janeiro, State of Rio de Janeiro, Brazil</item>
+        <item>Height: 1.72 m</item>
+        <item>Nationality: Brazilian</item>
+        <item>Spouse: Aine Coutinho (m. 2012)</item>
+        <item>Salary: 11.23 million EUR (2019)</item>
+        <item>Current teams: FC Barcelona (#14 / Midfielder), Brazil national football team (Midfielder)</item>
+    </string-array>
+    <string-array name="lenglet">
+        <item>Clément Nicolas Laurent Lenglet</item>
+        <item>Clément Nicolas Laurent Lenglet is a French professional footballer who plays as a centre-back for Spanish club Barcelona and the France national team. He began his career with Nancy, making 85 appearances from his debut in 2013, and winning the Ligue 2 title in the 2015–16 season.</item>
+        <item>Born: June 17, 1995 (age 25 years), Beauvais, France</item>
+        <item>Height: 1.86 m</item>
+        <item>Nationality: French</item>
+        <item>Weight: 81 kg</item>
+        <item>Current teams: FC Barcelona (#15 / Defender), France national football team (Defender)</item>
+        <item>Dates joined: July 2018 (FC Barcelona), 2017 (Sevilla FC), 2013 (AS Nancy)</item>
+    </string-array>
+    <string-array name="pedri">
+        <item>Pedro González López</item>
+        <item>Pedro González López, commonly known as Pedri, is a Spanish professional footballer who plays as an attacking midfielder for Barcelona.</item>
+        <item>Born: November 25, 2002 (age 17 years), Tegueste, Spain</item>
+        <item>Height: 1.75 m</item>
+        <item>Nationality: Spanish</item>
+        <item>Full name: Pedro González López</item>
+        <item>Weight: 60 kg</item>
+        <item>Current teams: FC Barcelona (#16 / Forward), Spain national under-21 football team (Forward)</item>
+    </string-array>
+    <string-array name="trincao">
+        <item>Francisco António Machado Mota Castro Trincão</item>
+        <item>Francisco António Machado Mota Castro Trincão is a Portuguese professional footballer who plays as a winger for Spanish club Barcelona and the Portugal national team.</item>
+        <item>Born: December 29, 1999 (age 20 years), Viana do Castelo District, Portugal</item>
+        <item>Height: 1.84 m</item>
+        <item>Nationality: Portuguese</item>
+        <item>Parents: Gonçalo Trincão</item>
+        <item>Current teams: FC Barcelona (#17 / Forward)</item>
+        <item>Dates joined: 2020 (FC Barcelona), 2018 (S.C. Braga), 2016 (S.C. Braga B)</item>
+    </string-array>
+    <string-array name="alba">
+        <item>Jordi Alba Ramos</item>
+        <item>Jordi Alba Ramos is a Spanish professional footballer who plays as a left-back for
+            Barcelona and the Spain national team. He started his career at Barcelona, but was released
+            after being deemed too small. After joining Cornellà, he moved to Valencia</item>
+        <item>Born: March 21, 1989 (age 31 years), LHospitalet de Llobregat, Spain</item>
+        <item>Height: 1.7 m</item>
+        <item>Nationality: Spanish</item>
+        <item>Partner: Romarey Ventura</item>
+        <item>Salary: 3 million EUR (2012)</item>
+        <item>Current teams: FC Barcelona (#18 / Defender)</item>
+    </string-array>
+    <string-array name="matheus">
+        <item>Matheus Fernandes Siqueira</item>
+        <item>Matheus Fernandes Siqueira, known as Matheus Fernandes, is a Brazilian professional footballer who plays as a central midfielder for Spanish club Barcelona</item>
+        <item>Born: June 30, 1998 (age 22 years), Itaboraí, State of Rio de Janeiro, Brazil</item>
+        <item>Height: 1.83 m</item>
+        <item>Weight: 71 kg</item>
+        <item>Nationality: Brazilian</item>
+        <item>Current team: FC Barcelona (#19 / Midfielder)</item>
+        <item>Dates joined: December 2018 (Sociedade Esportiva Palmeiras), 2016 (Botafogo de Futebol e Regatas)</item>
+    </string-array>
+    <string-array name="roberto">
+        <item>Sergi Roberto Carnicer</item>
+        <item>Sergi Roberto Carnicer is a Spanish professional footballer who plays for Barcelona and the Spain national team. Mainly a full-back, he can also operate as a defensive midfielder, central midfielder or winger.</item>
+        <item>Born: February 7, 1992 (age 28 years), Reus, Spain</item>
+        <item>Height: 1.78 m</item>
+        <item>Spouse: Coral Simanovich (m. 2018)</item>
+        <item>Current teams: FC Barcelona (#20 / Defender)</item>
+        <item>Children: Kaia Roberto Simanovich</item>
+        <item>Parents: Maria Rosa Carnicer, Josep Maria Roberto</item>
+    </string-array>
+    <string-array name="jong">
+        <item>Frenkie de Jong</item>
+        <item>Frenkie de Jong is a Dutch professional footballer who plays as a midfielder for Spanish club Barcelona and the Netherlands national team. A versatile playmaker, he is known for his strong defensive abilities. De Jong began his professional career at Willem II in 2015.</item>
+        <item>Born: May 12, 1997 (age 23 years), Arkel, Netherlands</item>
+        <item>Height: 1.8 m</item>
+        <item>Nationality: Dutch</item>
+        <item>Partner: Mikky Kiemeney</item>
+        <item>Current teams: FC Barcelona (#21 / Midfielder), Netherlands national football team (Midfielder)</item>
+        <item>Siblings: Youri de Jong</item>
+    </string-array>
+    <string-array name="fati">
+        <item>Ansu Fati</item>
+        <item>Anssumane "Ansu" Fati Vieira is a Spanish professional footballer who plays as a left winger for Barcelona and the Spain national team. He was born in Guinea-Bissau but represents Spain internationally. </item>
+        <item>Born: October 31, 2002 (age 18 years), Bissau, Guinea-Bissau</item>
+        <item>Height: 1.78 m</item>
+        <item>Weight: 66 kg</item>
+        <item>Date joined: 2019 (FC Barcelona, FC Barcelona Juvenil A, ...)</item>
+        <item>Nationality: Guinean, Spanish</item>
+        <item>Current teams: FC Barcelona (#22 / Forward)</item>
+    </string-array>
+    <string-array name="umtiti">
+        <item>Samuel Yves Um Titi</item>
+        <item>Samuel Yves Um Titi, known as Samuel Umtiti, is a French professional footballer who plays as a centre-back for Spanish club Barcelona and the French national team. Umtiti began his professional career with Lyon in 2012, winning both the Coupe de France and Trophée des Champions in his first year.</item>
+        <item>Born: November 14, 1993 (age 27 years), Yaounde, Cameroon</item>
+        <item>Height: 1.82 m</item>
+        <item>Weight: 75 kg</item>
+        <item>Nationality: Cameroonian, French</item>
+        <item>Parents: Annie Ngo Um</item>
+        <item>Current teams: FC Barcelona (#23 / Defender), France national football team (Defender)</item>
+    </string-array>
+    <string-array name="junior">
+        <item>Héctor Junior Firpo Adames</item>
+        <item>Héctor Junior Firpo Adames, known as Junior Firpo or simply Junior, is a Dominican born-Spanish professional footballer who plays for Barcelona. Mainly a left-back, he can also play as a winger or a central defender.</item>
+        <item>Born: August 22, 1996 (age 24 years), Santo Domingo, Dominican Republic</item>
+        <item>Nationality: Dominican</item>
+        <item>Height: 1.84 m</item>
+        <item>Spouse: Julia Torralbo</item>
+        <item>Current teams: FC Barcelona (#24 / Defender), Spain national under-21 football team (Defender)</item>
+        <item>Dates joined: August 4, 2019 (FC Barcelona)</item>
+    </string-array>
+
+</resources>

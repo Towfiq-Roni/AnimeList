@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left|top"
+    android:layout_marginTop="0dp"
+    android:paddingTop="0dp"
+    android:orientation="vertical"
+    tools:context=".PlayerDetailsActivity">
+
+    <LinearLayout
+        android:gravity="left|top"
+        android:layout_marginTop="0dp"
+        android:paddingTop="0dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:id="@+id/playerImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/p10"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            />
+        <TextView
+            android:id="@+id/p_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#17089E"
+            android:textSize="35sp"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center"
+            android:paddingTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/p_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:textColor="#BD0C2F"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/p_born"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Born"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:paddingLeft="30dp"
+            android:textColor="@android:color/background_dark"
+            />
+
+        <TextView
+            android:id="@+id/p_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:textColor="@android:color/background_dark"
+            />
+
+        <TextView
+            android:id="@+id/p_nationality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nationality"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:textColor="@android:color/background_dark"
+            />
+        <TextView
+            android:id="@+id/p_spouse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spouse"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:textColor="@android:color/background_dark"
+            />
+        <TextView
+            android:id="@+id/p_salary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salary"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:textColor="@android:color/background_dark"
+            />
+        <TextView
+            android:id="@+id/p_currentTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Team"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:textColor="@android:color/background_dark"
+            />
+    </LinearLayout>
+
+
+</ScrollView>
